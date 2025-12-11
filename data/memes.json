@@ -1,0 +1,72 @@
+{
+  "distracted_boyfriend": {
+    "name": "Distracted Boyfriend",
+    "origin": "Stock photo from 2015, went viral in 2017",
+    "meaning": "Represents getting distracted by something new while ignoring your current commitment",
+    "usage": "Used to show temptation, disloyalty, or changing preferences",
+    "example": "Me (boyfriend) ignoring my responsibilities (girlfriend) to scroll TikTok (other woman)"
+  },
+  "drakeposting": {
+    "name": "Drake Posting",
+    "origin": "From Drake's 'Hotline Bling' music video (2015)",
+    "meaning": "Shows preference by rejecting one thing and approving another",
+    "usage": "Top panel shows Drake disapproving, bottom shows him approving",
+    "example": "❌ Studying for finals | ✅ Binge-watching Netflix at 3am"
+  },
+  "woman_yelling_at_cat": {
+    "name": "Woman Yelling at Cat",
+    "origin": "Combines a 2018 Real Housewives scene with a confused cat photo",
+    "meaning": "Shows two opposing reactions or misunderstandings in a situation",
+    "usage": "Left side: angry/explaining, Right side: confused/unbothered",
+    "example": "Parents explaining why I need to study vs Me not caring about their lecture"
+  },
+  "this_is_fine": {
+    "name": "This Is Fine",
+    "origin": "From webcomic artist KC Green in 2013",
+    "meaning": "Accepting a disastrous situation while pretending everything is okay",
+    "usage": "Shows someone staying calm during chaos or denial of problems",
+    "example": "Me sitting in my room saying 'this is fine' while my life falls apart"
+  },
+  "galaxy_brain": {
+    "name": "Galaxy Brain / Expanding Brain",
+    "origin": "Started around 2017, shows increasingly glowing brain images",
+    "meaning": "Ironically shows 'ascending' levels of intelligence, usually getting dumber",
+    "usage": "Each level shows a 'smarter' but actually worse idea",
+    "example": "Small brain: Study | Big brain: Cram night before | Galaxy brain: Just wing it"
+  },
+  "spiderman_pointing": {
+    "name": "Spider-Man Pointing at Spider-Man",
+    "origin": "From 1967 Spider-Man cartoon episode",
+    "meaning": "When two people/things are exactly the same or accusing each other",
+    "usage": "Shows similarity, hypocrisy, or mutual accusations",
+    "example": "Me and my friend both saying we're the responsible one in the friendship"
+  },
+  "is_this_a_pigeon": {
+    "name": "Is This a Pigeon?",
+    "origin": "From 1990s anime 'The Brave Fighter of Sun Fighbird'",
+    "meaning": "Misidentifying something obvious or being completely wrong",
+    "usage": "Shows someone confidently being incorrect about something",
+    "example": "Me looking at any bird: 'Is this a pigeon?'"
+  },
+  "two_buttons": {
+    "name": "Two Buttons",
+    "origin": "From comic artist Jake Clark in 2015",
+    "meaning": "Being unable to choose between two conflicting options",
+    "usage": "Shows difficult decisions or internal conflicts",
+    "example": "Button 1: Sleep early | Button 2: Watch one more episode | Me: *sweating*"
+  },
+  "surprised_pikachu": {
+    "name": "Surprised Pikachu",
+    "origin": "From Pokémon anime (1997), became meme in 2018",
+    "meaning": "Mock surprise at predictable or obvious outcomes",
+    "usage": "Shows ironic shock when something expected happens",
+    "example": "Me shocked my pizza rolls are hot after microwaving them for 3 minutes"
+  },
+  "hide_the_pain_harold": {
+    "name": "Hide the Pain Harold",
+    "origin": "Stock photos of Hungarian model András Arató",
+    "meaning": "Forced smile hiding internal pain or discomfort",
+    "usage": "Represents trying to stay positive during difficult situations",
+    "example": "Me smiling at my relatives asking about my grades while dying inside"
+  }
+}

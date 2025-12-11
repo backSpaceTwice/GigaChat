@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GigaChat</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #212121;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 600px; /* Smaller container */
+        width: 100%;
+        background: white;
+        border-radius: 10px; /* Simplified border radius */
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+      }
+
+      .header {
+        background: #323232d9;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 1.8rem;
+      }
+
+      /* Simplified Chat Container */
+      .chat-container {
+        height: 400px;
+        overflow-y: auto;
+        padding: 15px;
+        background: #fafafa;
+      }
+
+      .message {
+        margin-bottom: 15px;
+        display: flex;
+        gap: 8px;
+      }
+
+      .message-content {
+        padding: 10px 15px;
+        border-radius: 10px;
+        max-width: 80%;
+        word-wrap: break-word;
+      }
+
+      .user-message {
+        justify-content: flex-end; /* Align user messages to the right */
+      }
+      .user-message .message-content {
+        background: #667eea;
+        color: white;
+        border-bottom-right-radius: 3px;
+      }
+
+      .bot-message .message-content {
+        background: white;
+        color: #333;
+        border: 1px solid #e0e0e0;
+        border-bottom-left-radius: 3px;
+      }
+
+      .avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+      }
+
+      .user-message .avatar {
+        background: #2196f3;
+        order: 2;
+      }
+
+      .bot-message .avatar {
+        background: #323232d9;
+      }
+
+      .input-area {
+        padding: 15px;
+        background: white;
+        border-top: 1px solid #e0e0e0;
+        display: flex;
+        gap: 10px;
+      }
+
+      #messageInput {
+        flex: 1;
+        padding: 10px 15px;
+        border: 1px solid #e0e0e0;
+        border-radius: 20px;
+        font-size: 1rem;
+        outline: none;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        background: #323232d9;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>GigaChat</h1>
+      </div>
+
+      <div class="chat-container" id="chatContainer">
+        <div class="message bot-message">
+          <div class="avatar">🤖</div>
+          <div class="message-content">
+            Hello! Type a message to see a simple response.
+          </div>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <input
+          type="text"
+          id="messageInput"
+          placeholder="Type your message or ask for a random meme..."
+          onkeypress="handleKeyPress(event)"
+        />
+        <button class="btn" onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+
+    <script>
+      function handleKeyPress(event) {
+        if (event.key === "Enter") {
+          sendMessage();
+        }
+      }
+
+      async function sendMessage() {
+        const input = document.getElementById("messageInput");
+        const message = input.value.trim();
+
+        if (!message) return;
+
+        // Add user message to chat
+        addMessage(message, "user");
+
+        // Clear input
+        input.value = "";
+
+        try {
+          // Send to simple API
+          const response = await fetch("/api/chat", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ message: message }),
+          });
+
+          const data = await response.json();
+
+          if (data.success) {
+            addMessage(data.response, "bot");
+          } else {
+            addMessage("Error: Could not get a response.", "bot");
+          }
+        } catch (error) {
+          addMessage("Error connecting to server.", "bot");
+          console.error("Error:", error);
+        }
+      }
+
+      function addMessage(text, type) {
+        const chatContainer = document.getElementById("chatContainer");
+
+        const messageDiv = document.createElement("div");
+        messageDiv.className = `message ${type}-message`;
+
+        const avatar = document.createElement("div");
+        avatar.className = "avatar";
+        avatar.textContent = type === "user" ? "👤" : "🤖";
+
+        const content = document.createElement("div");
+        content.className = "message-content";
+        content.textContent = text;
+
+        if (type === "user") {
+          messageDiv.appendChild(content);
+          messageDiv.appendChild(avatar);
+        } else {
+          messageDiv.appendChild(avatar);
+          messageDiv.appendChild(content);
+        }
+
+        chatContainer.appendChild(messageDiv);
+
+        // Scroll to bottom
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+      }
+    </script>
+  </body>
+</html>

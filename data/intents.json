@@ -1,0 +1,521 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "What's up", "Sup", "Yo"],
+      "responses": [
+        "Yo! What's good? Ask me about any Gen Z slang or memes!",
+        "Hey! Ready to decode some slang? Hit me with your questions!",
+        "What's up! I'm here to explain all the Gen Z lingo. What do you wanna know?"
+      ]
+    },
+
+    {
+      "tag": "rizz",
+      "patterns": [
+        "What does rizz mean?",
+        "Explain rizz to me.",
+        "He's got crazy rizz.",
+        "What is the meaning of rizz?",
+        "Why do people say someone has rizz?",
+        "Define rizz.",
+        "What's rizz in slang?",
+        "What does it mean to rizz someone up?",
+        "Is rizz the same as charisma?",
+        "How do you use rizz in a sentence?"
+      ],
+      "responses": [
+        "Rizz means charisma or smooth flirting ability. Someone with rizz can charm or attract others easily. Example: 'Bro got her number in 2 minutes, he's got W rizz!'",
+        "Rizz = your game/charm when talking to people you're interested in. Coined by streamer Kai Cenat. If you can pull anyone, you got that rizz fr fr.",
+        "Rizz is basically modern slang for charisma, especially romantic charisma. 'He rizzes up everyone at parties' means he's smooth with flirting.",
+        "It's your flirting skills and charm! W rizz = good game, L rizz = no game. Unspoken rizz = attracting people without even trying."
+      ]
+    },
+
+    {
+      "tag": "cap",
+      "patterns": [
+        "What does cap mean?",
+        "He's capping—what does that mean?",
+        "Explain cap in slang.",
+        "What does no cap vs cap mean?",
+        "Why do people say that's cap?",
+        "Define cap slang.",
+        "Is cap the same as lying?",
+        "What does stop capping mean?"
+      ],
+      "responses": [
+        "Cap means a lie or something false. Saying 'that's cap' means 'that's not true.' Example: 'He said he bench presses 300lbs—that's cap!'",
+        "Cap = lying or exaggerating. Comes from the phrase 'capping' which means lying. Stop capping = stop lying to me bro.",
+        "Yeah cap means lying! If someone says 'you capping,' they're calling you out for lying. The opposite is 'no cap' which means you're being real."
+      ]
+    },
+
+    {
+      "tag": "no_cap",
+      "patterns": [
+        "What does no cap mean?",
+        "Explain no cap please.",
+        "Why do people say no cap?",
+        "Is no cap like saying I'm serious?",
+        "What's the opposite of cap?",
+        "Use no cap in a sentence."
+      ],
+      "responses": [
+        "No cap means 'I'm serious' or 'no lie.' It emphasizes honesty and truthfulness. Example: 'This is the best pizza I've ever had, no cap.'",
+        "No cap = I'm being 100% honest, not lying at all. You use it to emphasize you're telling the truth. 'That movie was mid, no cap.'",
+        "It literally means 'no lie' or 'for real.' Add it to the end of statements to show you're being genuine. No cap is the opposite of cap (lying)."
+      ]
+    },
+
+    {
+      "tag": "mid",
+      "patterns": [
+        "What does mid mean?",
+        "Why do people say things are mid?",
+        "Explain mid slang.",
+        "What does calling something mid imply?",
+        "Is mid good or bad?",
+        "Give me the meaning of mid."
+      ],
+      "responses": [
+        "Mid means average, mediocre, or unimpressive—not good, not terrible. Example: 'That restaurant was mid, nothing special.'",
+        "Mid = mediocre or disappointing. If something is mid, it's meh, just okay. 'The movie was mid' = it wasn't worth the hype.",
+        "Calling something mid means it's underwhelming or just average. Often used when something doesn't live up to expectations. It's not necessarily bad, just not impressive."
+      ]
+    },
+
+    {
+      "tag": "iykyk",
+      "patterns": [
+        "What does iykyk stand for?",
+        "Explain iykyk.",
+        "What does iykyk mean in texting?",
+        "Why do people say iykyk?",
+        "Define iykyk slang."
+      ],
+      "responses": [
+        "IYKYK stands for 'if you know, you know'—meaning something only certain people will understand. It's for inside jokes or shared experiences.",
+        "IYKYK = If You Know, You Know. Used when referencing something that only a specific group would understand. Example: 'That restaurant at 2am hits different iykyk 👀'",
+        "It means there's context or an inside joke that only some people get. If you weren't there or don't have the experience, you won't understand it."
+      ]
+    },
+
+    {
+      "tag": "goated",
+      "patterns": [
+        "What does goated mean?",
+        "Explain goated slang.",
+        "He's goated at this—what does that mean?",
+        "Why do people say goated?",
+        "Is goated the same as GOAT?"
+      ],
+      "responses": [
+        "Goated means exceptionally good or the best at something—derived from GOAT (Greatest Of All Time). Example: 'LeBron is goated fr.'",
+        "Goated = being at GOAT level (Greatest Of All Time). If someone is goated at basketball, they're elite, top tier, the best.",
+        "Yeah it comes from GOAT! When you call someone goated, you're saying they're legendary or the absolute best at what they do."
+      ]
+    },
+
+    {
+      "tag": "cheugy",
+      "patterns": [
+        "What's cheugy mean?",
+        "Explain cheugy.",
+        "Why do people say something is cheugy?",
+        "Is cheugy an insult?",
+        "Give me the definition of cheugy."
+      ],
+      "responses": [
+        "Cheugy describes something outdated, trying too hard, or no longer fashionable. Think millennial trends that Gen Z finds cringe. Example: 'Live laugh love signs are so cheugy.'",
+        "Cheugy = out of style or trying too hard to be trendy but missing the mark. Coined in 2013 but went viral on TikTok in 2021. Basically means uncool or dated.",
+        "It's used for things that are basic, outdated, or trying too hard. Like skinny jeans, Starbucks obsession, or 'girlboss' energy—all cheugy according to Gen Z."
+      ]
+    },
+
+    {
+      "tag": "sus",
+      "patterns": [
+        "What does sus mean?",
+        "Why do people call things sus?",
+        "Explain sus slang.",
+        "Is sus short for suspicious?",
+        "Define sus."
+      ],
+      "responses": [
+        "Sus means suspicious or sketchy—something feels off or untrustworthy. Popularized by Among Us. Example: 'Why is he acting so sus right now?'",
+        "Sus = suspicious or questionable. Blown up thanks to the game Among Us. If something seems sus, it's giving off weird vibes or doesn't add up.",
+        "Yeah it's short for suspicious! Use it when something or someone seems sketchy, weird, or not quite right. 'That's sus' = that's suspicious/questionable."
+      ]
+    },
+
+    {
+      "tag": "bet",
+      "patterns": [
+        "What does bet mean?",
+        "Why do people say bet?",
+        "Explain bet slang.",
+        "Is bet like saying okay?",
+        "Use bet in a sentence."
+      ],
+      "responses": [
+        "Bet is used to say 'okay,' 'sounds good,' or 'I agree.' It can also mean accepting a challenge. Example: 'Wanna grab food?' 'Bet!'",
+        "Bet = agreement or confirmation. Like saying 'for sure' or 'alright cool.' You can also use it to accept a dare: 'You won't jump in the pool' 'Bet.'",
+        "It's basically 'okay' or 'deal.' Short and casual way to agree with someone or confirm plans. 'See you at 6?' 'Bet.'"
+      ]
+    },
+
+    {
+      "tag": "slay",
+      "patterns": [
+        "What does slay mean?",
+        "Explain slay slang.",
+        "Why do people say someone slayed?",
+        "Is slay positive?",
+        "Define slay in Gen Z terms."
+      ],
+      "responses": [
+        "Slay means to do something exceptionally well, especially in style or confidence. Example: 'She walked into the party and absolutely slayed!'",
+        "Slay = killing it, doing amazing, looking incredible. If someone slays, they're nailing whatever they're doing with confidence and style. Very positive!",
+        "It means you absolutely crushed it—performed, looked, or executed something perfectly. 'Slay queen!' is a compliment meaning you're doing amazing."
+      ]
+    },
+
+    {
+      "tag": "touch_grass",
+      "patterns": [
+        "What does touch grass mean?",
+        "Explain touch grass slang.",
+        "Why do people tell others to touch grass?",
+        "Is touch grass an insult?",
+        "Define touch grass."
+      ],
+      "responses": [
+        "Touch grass means to go outside or take a break from the internet—usually said jokingly. Example: 'Bro has been gaming for 12 hours, he needs to touch grass.'",
+        "'Touch grass' is telling someone they need to go outside and experience real life instead of being chronically online. Can be playful or calling someone out.",
+        "It's a meme phrase meaning 'get off the internet and go outside.' Said when someone's being too online, too obsessed, or needs some fresh air and reality."
+      ]
+    },
+
+    {
+      "tag": "ate",
+      "patterns": [
+        "What does ate mean in slang?",
+        "Explain ate as slang.",
+        "What does it mean when someone 'ate'?",
+        "Why do people say 'ate and left no crumbs'?",
+        "Define ate slang."
+      ],
+      "responses": [
+        "Ate means someone performed extremely well—often in fashion, dancing, or performance. Example: 'She ate that choreography!'",
+        "'Ate' or 'ate and left no crumbs' means someone absolutely killed it and left nothing for anyone else. They were THAT good. Usually about performances or looks.",
+        "When someone 'ate,' they devoured the assignment, did it perfectly. No notes, no complaints—they just completely dominated whatever they were doing."
+      ]
+    },
+
+    {
+      "tag": "washed",
+      "patterns": [
+        "What does washed mean?",
+        "Explain washed slang.",
+        "Is washed an insult?",
+        "Why do people say someone is washed?",
+        "Define washed slang."
+      ],
+      "responses": [
+        "Washed means someone is past their prime or out of touch with current trends. Example: 'He still uses Facebook unironically, he's washed.'",
+        "Washed = you're no longer good at something you used to be good at, or you're outdated. Often used in gaming or sports. 'That player is washed, he used to be great.'",
+        "Calling someone washed means they've lost their edge or are no longer relevant. Can refer to skills declining or being out of touch with what's current."
+      ]
+    },
+
+    {
+      "tag": "delulu",
+      "patterns": [
+        "What is delulu?",
+        "Explain delulu slang.",
+        "Why do people call others delulu?",
+        "Is delulu short for delusional?",
+        "Define delulu."
+      ],
+      "responses": [
+        "Delulu is slang for being delusional in a playful or exaggerated way, often about crushes or fantasies. Example: 'I'm delulu thinking my crush will text me first.'",
+        "Delulu = delusional, but used lightheartedly. Usually about unrealistic hopes in dating or fantasizing about unlikely scenarios. 'Delulu is the solulu' (delusion is the solution) is a meme phrase!",
+        "It's being delusional but embracing it! Often used when manifesting or having unrealistic expectations. 'I'm being delulu but I think we're soulmates after one conversation.'"
+      ]
+    },
+
+    {
+      "tag": "snatched",
+      "patterns": [
+        "What does snatched mean?",
+        "Explain snatched slang.",
+        "Why do people say someone looks snatched?",
+        "Is snatched about fashion?",
+        "Define snatched."
+      ],
+      "responses": [
+        "Snatched means looking extremely good—polished, styled, or put together perfectly. Example: 'Her makeup is snatched today!'",
+        "Snatched = on point, flawless, looking incredible. Often used for fashion, makeup, or body. 'Your outfit is snatched!' = you look amazing.",
+        "When someone looks snatched, they're serving looks—everything is perfectly styled and they look fire. Very positive compliment!"
+      ]
+    },
+
+    {
+      "tag": "based",
+      "patterns": [
+        "What does based mean?",
+        "Explain based slang.",
+        "Why do people say someone is based?",
+        "Is based positive or negative?",
+        "Define based."
+      ],
+      "responses": [
+        "Based means being unapologetically yourself or expressing an opinion confidently, regardless of judgment. Example: 'He said pineapple on pizza is good—based.'",
+        "Based = not caring what others think and speaking your truth. Originated from rapper Lil B. If someone's based, they're authentic and don't follow the crowd.",
+        "Being based means expressing your genuine opinion even if it's unpopular or controversial. It's about being real and not performative. Generally positive!"
+      ]
+    },
+
+    {
+      "tag": "fire",
+      "patterns": [
+        "What does fire mean in slang?",
+        "Explain fire slang.",
+        "Why do people call things fire?",
+        "Is fire good?",
+        "Define fire slang."
+      ],
+      "responses": [
+        "Fire means something is excellent, exciting, or impressive. Example: 'This song is fire! 🔥'",
+        "Fire = amazing, hot, incredible. Used to describe anything you think is really good. 'That concert was fire' = it was awesome.",
+        "Yeah fire is super positive! It means something is heat, top tier, really good. Often accompanied by the 🔥 emoji."
+      ]
+    },
+
+    {
+      "tag": "lowkey",
+      "patterns": [
+        "What does lowkey mean?",
+        "Explain lowkey slang.",
+        "Why do people say lowkey?",
+        "Is lowkey opposite of highkey?",
+        "Define lowkey."
+      ],
+      "responses": [
+        "Lowkey means subtly, secretly, or mildly—without making it a big deal. Example: 'I lowkey want to skip class today.'",
+        "Lowkey = kinda, sort of, or on the down-low. You're not being loud about it but it's true. 'I'm lowkey tired' = I'm somewhat tired but not making a fuss.",
+        "It's like saying 'secretly' or 'somewhat.' You're downplaying it. 'Lowkey obsessed with this show' = I like it but I'm not being dramatic about it."
+      ]
+    },
+
+    {
+      "tag": "highkey",
+      "patterns": [
+        "What does highkey mean?",
+        "Explain highkey.",
+        "Is highkey just the opposite of lowkey?",
+        "Why do people say highkey?",
+        "Define highkey slang."
+      ],
+      "responses": [
+        "Highkey means openly, obviously, or strongly—making it known without holding back. Example: 'I'm highkey stressed about this exam.'",
+        "Highkey = very, extremely, openly. The opposite of lowkey. You're not hiding it at all. 'Highkey love this song' = I'm loudly and proudly obsessed with it.",
+        "Yeah it's the opposite of lowkey! Highkey means you're being obvious or vocal about something. Not downplaying it at all—you're all in."
+      ]
+    },
+
+    {
+      "tag": "simp",
+      "patterns": [
+        "What does simp mean?",
+        "Explain simp slang.",
+        "Why do people call someone a simp?",
+        "Is simp an insult?",
+        "Define simp."
+      ],
+      "responses": [
+        "A simp is someone who shows excessive attention or affection toward someone they like, often in a way that seems one-sided. Example: 'He bought her a $200 gift and they just met—he's simping.'",
+        "Simp = someone who does way too much for someone they're attracted to, usually getting nothing in return. Can be used jokingly or as an insult.",
+        "Simping means giving someone too much attention, praise, or gifts hoping they'll like you back. Often used when someone's being overly nice or desperate for attention."
+      ]
+    },
+
+    {
+      "tag": "yeet",
+      "patterns": [
+        "What does yeet mean?",
+        "Explain yeet slang.",
+        "Why do people say yeet?",
+        "Does yeet mean throw?",
+        "Define yeet."
+      ],
+      "responses": [
+        "Yeet is an exclamation for excitement or used when forcefully throwing something. Example: 'I'm gonna yeet this paper ball across the room!'",
+        "Yeet = to throw something with force and enthusiasm. Also used as an excited exclamation. Kinda old slang now but still used. 'YEET!' *throws something*",
+        "It means to throw forcefully or it's an expression of excitement. 'Yeet that ball!' = throw it hard. Or just yell 'YEET!' when you're hyped."
+      ]
+    },
+
+    {
+      "tag": "bruh",
+      "patterns": [
+        "What does bruh mean?",
+        "Explain bruh slang.",
+        "Why do people say bruh?",
+        "Is bruh like bro?",
+        "Define bruh."
+      ],
+      "responses": [
+        "Bruh is a casual expression of disbelief, frustration, or surprise. Example: 'Bruh, did you really just say that?'",
+        "Bruh = bro but with more exasperation or disbelief. You say it when something is ridiculous, frustrating, or surprising. 'Bruh moment' = facepalm situation.",
+        "It's like 'bro' but more of a reaction. Used when you're shocked, annoyed, or can't believe something. 'Bruh...' says it all sometimes."
+      ]
+    },
+
+    {
+      "tag": "fax",
+      "patterns": [
+        "What does fax mean?",
+        "Explain fax slang.",
+        "Why do people say fax?",
+        "Is fax like facts?",
+        "Define fax slang."
+      ],
+      "responses": [
+        "Fax means 'facts'—used to strongly agree with something true. Example: 'Pizza is better than tacos.' 'Fax!'",
+        "Fax = facts, you're speaking truth. It's enthusiastic agreement. Someone says something real and you respond 'fax' or 'straight fax' to show you 100% agree.",
+        "It's just 'facts' spelled like the machine! Means you're completely right, that's the truth. 'That test was impossible' 'Fax, no printer!'"
+      ]
+    },
+
+    {
+      "tag": "ratio",
+      "patterns": [
+        "What does ratio mean online?",
+        "Explain ratio slang.",
+        "Why do people say you got ratioed?",
+        "Define ratio.",
+        "What happens when someone is ratioed?"
+      ],
+      "responses": [
+        "Ratio means receiving more negative replies than likes—implying your take was unpopular. On Twitter, if a reply gets more likes than your original tweet, you got ratioed.",
+        "Getting ratioed = your post/comment got dunked on. When people disagree so much that the replies get more engagement than your original post. It's an L.",
+        "To ratio someone means to reply to their post and get more likes than them, showing their opinion was bad/unpopular. 'Ratio + L + you fell off' is a classic clap back."
+      ]
+    },
+
+    {
+      "tag": "pressed",
+      "patterns": [
+        "What does pressed mean?",
+        "Explain pressed slang.",
+        "Why do people say someone is pressed?",
+        "Is pressed negative?",
+        "Define pressed slang."
+      ],
+      "responses": [
+        "Pressed means upset, bothered, or annoyed by something—more than necessary. Example: 'Why are you so pressed about it? It's not that deep.'",
+        "Being pressed = taking something too seriously or being overly bothered. Someone who's pressed is worked up over something small. 'He's so pressed right now.'",
+        "Pressed means you're stressed, upset, or taking things too personally. Usually implies you're overreacting or being too sensitive about something."
+      ]
+    },
+
+    {
+      "tag": "doing_too_much",
+      "patterns": [
+        "What does doing too much mean?",
+        "Explain doing too much slang.",
+        "Why do people say someone is doing too much?",
+        "Define doing too much.",
+        "Is doing too much bad?"
+      ],
+      "responses": [
+        "Doing too much means behaving overly dramatic, extra, or trying too hard. Example: 'She's doing too much trying to get attention.'",
+        "Doing too much = being extra, over the top, or trying way too hard. Could be about attention-seeking, overdressing for a casual event, or just being dramatic.",
+        "It means you're being excessive or going overboard. Similar to being 'extra.' Someone who does too much is trying too hard or being unnecessarily dramatic."
+      ]
+    },
+
+    {
+      "tag": "stan",
+      "patterns": [
+        "What does stan mean?",
+        "Explain stan slang.",
+        "Why do people say I stan?",
+        "Is stan good or bad?",
+        "Define stan."
+      ],
+      "responses": [
+        "To stan means to strongly support, idolize, or obsessively admire someone. Example: 'I stan Taylor Swift!' From Eminem's song 'Stan' about an obsessed fan.",
+        "Stan = being a super fan of someone or something. You can stan a celebrity, a show, a character. 'We stan a queen!' = we love and support her!",
+        "Stanning is being a hardcore fan. Comes from Eminem's 2000 song 'Stan' about an obsessive fan. Now it means you love and support someone/something intensely."
+      ]
+    },
+
+    {
+      "tag": "fomo",
+      "patterns": [
+        "What does FOMO stand for?",
+        "Explain FOMO.",
+        "Why do people say they have FOMO?",
+        "Define FOMO slang.",
+        "Is FOMO an emotion?"
+      ],
+      "responses": [
+        "FOMO stands for Fear Of Missing Out—the feeling that others are experiencing something you're not. Example: 'Everyone's at the party except me, major FOMO right now.'",
+        "FOMO = Fear Of Missing Out. That anxiety you get when you see others having fun without you. Social media makes FOMO worse—you see everything you're missing!",
+        "Yeah it's the anxiety that you're missing out on something fun or important that everyone else is doing. FOMO hits hard when you see those group pics without you."
+      ]
+    },
+
+    {
+      "tag": "glow_up",
+      "patterns": [
+        "What does glow up mean?",
+        "Explain glow up.",
+        "Why do people say someone had a glow up?",
+        "Define glow up.",
+        "Is glow up a compliment?"
+      ],
+      "responses": [
+        "Glow up means a major improvement in appearance, confidence, or lifestyle over time. Example: 'His glow up from middle school to now is insane!'",
+        "A glow up is a transformation where someone becomes more attractive, confident, or successful. Usually physical but can be overall life improvement. Definitely a compliment!",
+        "Glow up = positive transformation. Could be better style, fitness, confidence, career—any major improvement. 'She had such a glow up!' = she leveled up significantly."
+      ]
+    },
+
+    {
+      "tag": "tea",
+      "patterns": [
+        "What does tea mean in slang?",
+        "Explain tea slang.",
+        "Why do people say spill the tea?",
+        "Define tea.",
+        "What does it mean to spill tea?"
+      ],
+      "responses": [
+        "Tea means gossip or information—'spilling the tea' means sharing the details. Example: 'Girl, I got some tea about what happened at the party!'",
+        "Tea = gossip, drama, or juicy information. 'Spill the tea' means tell me everything! 'Sip tea' means enjoying drama while staying out of it. ☕",
+        "Spilling tea is sharing gossip or insider information. It's the drama, the story, the details everyone wants to know. 'What's the tea?' = what's going on?"
+      ]
+    },
+
+    {
+      "tag": "meme_request",
+      "patterns": [
+        "Tell me about a random meme.",
+        "Explain a meme to me.",
+        "What is a popular meme?",
+        "Give me a meme explanation.",
+        "Tell me about a famous meme.",
+        "Random meme",
+        "What's a good meme?",
+        "Teach me about memes",
+        "Show me a meme",
+        "Meme time"
+      ],
+      "responses": ["Let me tell you about a random meme!"]
+    }
+  ]
+}
