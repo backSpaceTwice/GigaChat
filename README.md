@@ -18,10 +18,9 @@ neural network trained on categorized patterns and responses.
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/gigachat.git
 cd gigachat
 
-python -m venv venv
+python -m venv venv          # if python doesn't work try using python3
 source venv/bin/activate     # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
@@ -42,10 +41,10 @@ python scripts/train_model.py
 python src/main.py
 ```
 
-### Run the front-end
+### Run the WebApp (hosted on http://localhost:5002/)
 
 ```bash
-python flash_app.py
+python flask_app.py
 ```
 
 ## Example Usage
@@ -106,19 +105,6 @@ Edit `data/memes.json`:
 }
 ```
 
-Or use the helper:
-
-```bash
-python scripts/add_memes.py
-```
-
-## Testing
-
-```bash
-pytest tests/
-pytest --cov=src
-```
-
 ## Configuration
 
 Modify training hyperparameters in `scripts/train_model.py`:
@@ -130,25 +116,6 @@ EPOCHS = 100
 DROPOUT = 0.5
 ```
 
-## Known Limitations
-
-- Requires NLTK downloads before first run\
-- Very short inputs may be ambiguous\
-- Adding new slang requires retraining
-
-## Future Plans
-
-- Confidence scoring\
-- Conversation history\
-- Web interface\
-- Multi-language support\
-- Automatic slang updates via API
-
-## License
+#### License
 
 MIT License -- see LICENSE for details.
-
-## Contact
-
-- GitHub Issues: https://github.com/yourusername/gigachat/issues\
-- Email: your.email@example.com
