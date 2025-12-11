@@ -42,6 +42,12 @@ python scripts/train_model.py
 python src/main.py
 ```
 
+### Run the front-end
+
+```bash
+python flash_app.py
+```
+
 ## Example Usage
 
     You: what does rizz mean?
