@@ -14,7 +14,7 @@ def ensure_nltk_data():
     """
     Download required NLTK data if not present
     """
-    required_packages = ['punkt', 'wordnet', 'omw-1.4']
+    required_packages = ['punkt', 'wordnet', 'omw-1.4', 'punkt_tab']
     
     for package in required_packages:
         try:

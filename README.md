@@ -6,27 +6,39 @@ neural network trained on categorized patterns and responses.
 
 ## Features
 
-- AI-powered slang and meme explanations\
-- 30+ slang terms with clear definitions\
-- Meme breakdowns including origins and examples\
-- Context-aware responses\
-- Easily expandable JSON-based dataset\
+- AI-powered slang and meme explanations
+- 30+ slang terms with clear definitions
+- Meme breakdowns including origins and examples
+- Context-aware responses
+- Easily expandable JSON-based dataset
 - Fast, lightweight model for quick inference
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+*   **Python**: Version 3.8 or higher is recommended.
+*   **pip**: The Python package installer, typically bundled with Python.
+*   **Git**: For cloning the repository.
 
 ## Quick Start
 
-### Installation
+### Setup for Mac and Linux
+- Nav to to project directory
 
 ```bash
-cd gigachat
 
-python -m venv venv          # if python doesn't work try using python3
+cd GigaChat
+```
+
+```bash
+python -m venv venv          # Create a virtual environment (venv is usually included with Python 3.3+)
 source venv/bin/activate     # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 
 # NLTK data
-python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet')"
+python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('wordnet')"
 ```
 
 ### Train the Model
@@ -61,18 +73,17 @@ python flask_app.py
 
 ## Project Stats
 
-- 30+ intents\
-- 200+ training examples\
-- Model accuracy: \~95%\
-- Inference time: under 10ms\
-- Model size: \~50 KB
+- 30+ intents
+- Model accuracy: ~95%
+- Inference time: under 10ms
+- Model size: ~50 KB
 
 ## Tech Stack
 
-- PyTorch\
-- NLTK (tokenization, lemmatization)\
-- JSON-based data files\
-- Feedforward neural network (3 layers)\
+- PyTorch
+- NLTK (tokenization, lemmatization)
+- JSON-based data files
+- Feedforward neural network (3 layers)
 - Adam optimizer + cross-entropy loss
 
 ## Adding New Content
@@ -107,7 +118,7 @@ Edit `data/memes.json`:
 
 ## Configuration
 
-Modify training hyperparameters in `scripts/train_model.py`:
+odify training hyperparameters in `scripts/train_model.py`:
 
 ```python
 BATCH_SIZE = 8
@@ -115,7 +126,3 @@ LEARNING_RATE = 0.001
 EPOCHS = 100
 DROPOUT = 0.5
 ```
-
-#### License
-
-MIT License -- see LICENSE for details.
